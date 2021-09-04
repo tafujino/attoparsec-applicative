@@ -1,0 +1,29 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.34.4.
+--
+-- see: https://github.com/sol/hpack
+
+name:           attoparsec-applicative
+version:        0.1.0.0
+category:       Web
+homepage:       https://github.com/githubuser/attoparsec-applicative#readme
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2018 Author name here
+license:        BSD3
+build-type:     Simple
+extra-source-files:
+    README.md
+
+library
+  exposed-modules:
+      Data.Attoparsec.Applicative
+  other-modules:
+      Paths_attoparsec_applicative
+  hs-source-dirs:
+      lib
+  build-depends:
+      attoparsec
+    , base >=4.7 && <5
+  default-language: Haskell2010
